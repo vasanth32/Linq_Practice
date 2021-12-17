@@ -1,0 +1,16 @@
+E:\@udemy\Projects\Linq\Linq\bin\Debug\net5.0\Linq.exe
+E:\@udemy\Projects\Linq\Linq\bin\Debug\net5.0\Linq.deps.json
+E:\@udemy\Projects\Linq\Linq\bin\Debug\net5.0\Linq.runtimeconfig.json
+E:\@udemy\Projects\Linq\Linq\bin\Debug\net5.0\Linq.runtimeconfig.dev.json
+E:\@udemy\Projects\Linq\Linq\bin\Debug\net5.0\Linq.dll
+E:\@udemy\Projects\Linq\Linq\bin\Debug\net5.0\ref\Linq.dll
+E:\@udemy\Projects\Linq\Linq\bin\Debug\net5.0\Linq.pdb
+E:\@udemy\Projects\Linq\Linq\obj\Debug\net5.0\Linq.csproj.AssemblyReference.cache
+E:\@udemy\Projects\Linq\Linq\obj\Debug\net5.0\Linq.GeneratedMSBuildEditorConfig.editorconfig
+E:\@udemy\Projects\Linq\Linq\obj\Debug\net5.0\Linq.AssemblyInfoInputs.cache
+E:\@udemy\Projects\Linq\Linq\obj\Debug\net5.0\Linq.AssemblyInfo.cs
+E:\@udemy\Projects\Linq\Linq\obj\Debug\net5.0\Linq.csproj.CoreCompileInputs.cache
+E:\@udemy\Projects\Linq\Linq\obj\Debug\net5.0\Linq.dll
+E:\@udemy\Projects\Linq\Linq\obj\Debug\net5.0\ref\Linq.dll
+E:\@udemy\Projects\Linq\Linq\obj\Debug\net5.0\Linq.pdb
+E:\@udemy\Projects\Linq\Linq\obj\Debug\net5.0\Linq.genruntimeconfig.cache
