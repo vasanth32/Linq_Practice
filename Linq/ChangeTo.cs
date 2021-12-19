@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Linq
 {
@@ -45,7 +43,7 @@ namespace Linq
             /*here with the help of ToDictionary() method we are converting the colection  
             of information in the form of dictionary and will fetch only the required information*/
             var student = objStudent.ToDictionary(x => x.Id, x => x.Name);
-            
+
             //foreach loop is used to print the information of the student  
             foreach (var stud in student)
             {

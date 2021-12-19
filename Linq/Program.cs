@@ -63,31 +63,50 @@ namespace Linq
             //uncommmand for First
             //ElementOperators.First();
 
-            //uncommmand for First
+            //uncommmand for fn_FirstOrDefault
             //ElementOperators.fn_FirstOrDefault();
 
-            //uncommmand for First
+            //uncommmand for fn_Last
             //ElementOperators.fn_Last();
 
-            //uncommmand for First
+            //uncommmand for fn_LastOrDefault
             //ElementOperators.fn_LastOrDefault();
 
-            //uncommmand for First
+            //uncommmand for ElementAt
             //ElementOperators.fn_ElementAt();
 
-            //uncommmand for First
+            //uncommmand for Single
             //ElementOperators.fn_Single();
 
-            //uncommmand for First
-            ElementOperators.fn_DefaultIfEmpty();
+            //uncommmand for DefaultIfEmpty
+            //ElementOperators.fn_DefaultIfEmpty();
 
-            Console.ReadLine(); }
+            //uncommmand for Group by
+            //ElementOperators.fn_GroupBy();
+
+            //uncommmand for First
+            //Joins.innerJoin();
+            
+            //uncommmand for First
+            //Joins.leftJoin();
+
+             //uncommmand for First
+            //Joins.crossJoin();
+            
+            //uncommmand for First
+            Joins.groupJoin();
+
+
+            Console.ReadLine();
+        }
     }
     class Student
     {
         public string Name { get; set; }
         public string Gender { get; set; }
         public List<string> Subjects { get; set; }
+        public string Location { get; set; }
+
     }
 
 }

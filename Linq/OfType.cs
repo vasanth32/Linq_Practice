@@ -2,8 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Linq
 {
@@ -28,18 +26,18 @@ namespace Linq
                     Console.WriteLine(item);
                 }
             }
-            if (type=="string")
+            if (type == "string")
             {
                 //ofType() method will return the value only the specific type  
-              IEnumerable<string>  results = obj.OfType<string>();
+                IEnumerable<string> results = obj.OfType<string>();
                 foreach (var item in results)
                 {
                     Console.WriteLine(item);
                 }
             }
-           
 
-          
+
+
 
         }
     }

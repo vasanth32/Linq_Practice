@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Linq
 {
@@ -12,7 +10,7 @@ namespace Linq
         {
 
 
-        List<Employee> objEmployee = new List<Employee>()
+            List<Employee> objEmployee = new List<Employee>()
         {
             new Employee() {Name="Akshay Tyagi", Department="IT", Country="India"},
             new Employee(){ Name="Vaishali Tyagi", Department="Marketing", Country="Australia"},

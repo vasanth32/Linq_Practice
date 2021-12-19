@@ -19,18 +19,18 @@ namespace Linq
             };
             var studentname = Objstudent.OrderBy(x => x.Name).ThenBy(x => x.RoleId);
 
-            if (filter=="asc")
+            if (filter == "asc")
             {
                 //ThenBy() operator is used here to sort the Information of the student in ascending form on the behalf of the RollNumber  
-                 studentname = Objstudent.OrderBy(x => x.Name).ThenBy(x => x.RoleId);
+                studentname = Objstudent.OrderBy(x => x.Name).ThenBy(x => x.RoleId);
 
             }
-            else if(filter=="desc")
+            else if (filter == "desc")
             {
                 studentname = Objstudent.OrderBy(x => x.Name).ThenByDescending(x => x.RoleId);
             }
 
-            
+
 
 
             //foreach loop is used to print the information  

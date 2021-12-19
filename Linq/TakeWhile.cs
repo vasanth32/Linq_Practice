@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Linq
 {
@@ -11,12 +9,12 @@ namespace Linq
         public static void fn_partitions(string val, int skip)
         {
             string[] countries = { "UK", "USA", "Russia", "China", "Australia", "Argentina" };
-            
+
             IEnumerable<string> result = countries.Take(2);
-           
+
             //Method syntax
-            if(val!="")
-            result = countries.TakeWhile(x => x.StartsWith(val));
+            if (val != "")
+                result = countries.TakeWhile(x => x.StartsWith(val));
 
 
             if (val != "")

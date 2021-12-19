@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Linq
 {
@@ -32,6 +30,33 @@ namespace Linq
         }
 
 
+        public static void fn_GroupBy()
+        {
+            List<Student> objStudent = new List<Student>
+            ()
+                   {
+                   new Student() { Name = "Ak Tyagi", Gender = "Male",Location="Chennai" },
+                   new Student() { Name = "Rohini", Gender = "Female", Location="Chennai" },
+                   new Student() { Name = "Praveen", Gender = "Male",Location="Bangalore" },
+                   new Student() { Name = "Sateesh", Gender = "Male", Location ="Vizag"},
+                   new Student() { Name = "Madhav", Gender = "Male", Location="Nagpur"}
+                   };
+            var sitem = (from i in objStudent select i).GroupBy(i => i.Location);
+
+            foreach (var item in sitem)
+            {
+                foreach (var i in item)
+                {
+                    Console.WriteLine("Name  " + i.Name + "  Location  " + i.Location);
+                }
+            }
+
+            for (int i = 0; i < objStudent.Count; i++)
+            {
+
+            }
+
+        }
         public static void fn_Single()
         {
             List<Student> objStudent = new List<Student>()
@@ -44,9 +69,9 @@ namespace Linq
             };
 
             int[] ob = { 1 };
-            var SingleOb = objStudent.Single(n=>n.Name== "Madhav Sai");
+            var SingleOb = objStudent.Single(n => n.Name == "Madhav Sai");
             var Where = (from n in objStudent select n).Where(n => n.Name == "Madhav Sai");
-            foreach(var s in Where)
+            foreach (var s in Where)
             {
                 Console.WriteLine(s.Name);
                 Console.WriteLine(s.Gender);
@@ -137,7 +162,7 @@ namespace Linq
             int method1 = test.FirstOrDefault();
             string method2 = st.FirstOrDefault();
             string method3 = st1.FirstOrDefault();
-            
+
             //this one will throws err if there is no values
             //string method4 = st1.First();
 
