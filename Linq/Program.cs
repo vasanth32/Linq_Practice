@@ -8,18 +8,10 @@ namespace Linq
     {
         static void Main(string[] args)
         {
-
-            List<Student> Objstudent = new List<Student>(){
-        new Student() { Name = "Suresh Dasari", Gender = "Male", Subjects = new List<string> { "Mathematics", "Physics" } },
-        new Student() { Name = "Rohini Alavala", Gender = "Female", Subjects = new List<string> { "Entomology", "Botany" } },
-        new Student() { Name = "Praveen Kumar", Gender = "Male", Subjects = new List<string> { "Computers", "Operating System", "Java" } },
-        new Student() { Name = "Sateesh Chandra", Gender = "Male", Subjects = new List<string> { "English", "Social Studies", "Chemistry" } },
-        new Student() { Name = "Madhav Sai", Gender = "Male", Subjects = new List<string> { "Accounting", "Charted" } }
-        };
-
-            var tmp = Objstudent.OrderBy(x => x.Name);
-            var tmpDes = Objstudent.OrderByDescending(x => x.Name);
-            var tmps = from ob in Objstudent orderby ob.Name select ob;
+            //LINQwithObjects
+            //LINQwithObjects.fn_LinqToString();
+            //LINQwithObjects.fn_LinqToArray();
+            LINQwithObjects.fn_LinqToIntArray();
 
             //uncommmand for orderby
             //foreach (var stu in tmp)
@@ -82,23 +74,42 @@ namespace Linq
             //ElementOperators.fn_DefaultIfEmpty();
 
             //uncommmand for Group by
-            //ElementOperators.fn_GroupBy();
+            //ElementOper6ators.fn_GroupBy();
 
             //uncommmand for First
             //Joins.innerJoin();
-            
+
             //uncommmand for First
             //Joins.leftJoin();
 
-             //uncommmand for First
-            //Joins.crossJoin();
-            
             //uncommmand for First
-            Joins.groupJoin();
+            //Joins.crossJoin();
 
+            //uncommmand for First
+            //Joins.groupJoin();
+
+
+            //GenerationsOperations
+            //GenerationsOperations.fn_Range();
+            //GenerationsOperations.fn_Empty();
+
+
+
+
+            var tmp = Objstudent.OrderBy(x => x.Name);
+            var tmpDes = Objstudent.OrderByDescending(x => x.Name);
+            var tmps = from ob in Objstudent orderby ob.Name select ob;
 
             Console.ReadLine();
         }
+        public static List<Student> Objstudent = new List<Student>()
+        {
+        new Student() { Name = "Suresh Dasari", Gender = "Male", Subjects = new List<string> { "Mathematics", "Physics" } },
+        new Student() { Name = "Rohini Alavala", Gender = "Female", Subjects = new List<string> { "Entomology", "Botany" } },
+        new Student() { Name = "Praveen Kumar", Gender = "Male", Subjects = new List<string> { "Computers", "Operating System", "Java" } },
+        new Student() { Name = "Sateesh Chandra", Gender = "Male", Subjects = new List<string> { "English", "Social Studies", "Chemistry" } },
+        new Student() { Name = "Madhav Sai", Gender = "Male", Subjects = new List<string> { "Accounting", "Charted" } }
+        };
     }
     class Student
     {
