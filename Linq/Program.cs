@@ -86,15 +86,18 @@ namespace Linq
 
             //uncommmand for First
             //Joins.innerJoin();
-            
+
             //uncommmand for First
             //Joins.leftJoin();
 
-             //uncommmand for First
-            //Joins.crossJoin();
-            
             //uncommmand for First
-            Joins.groupJoin();
+            //Joins.crossJoin();
+
+            //uncommmand for First
+            //Joins.groupJoin();
+
+            //Experssion
+            Experssion.fn_experssion();
 
 
             Console.ReadLine();
@@ -104,6 +107,7 @@ namespace Linq
     {
         public string Name { get; set; }
         public string Gender { get; set; }
+        public int Age { get; set; }
         public List<string> Subjects { get; set; }
         public string Location { get; set; }
 

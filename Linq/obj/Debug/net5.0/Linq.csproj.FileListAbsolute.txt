@@ -14,3 +14,19 @@ E:\@udemy\Projects\Linq\Linq\obj\Debug\net5.0\Linq.dll
 E:\@udemy\Projects\Linq\Linq\obj\Debug\net5.0\ref\Linq.dll
 E:\@udemy\Projects\Linq\Linq\obj\Debug\net5.0\Linq.pdb
 E:\@udemy\Projects\Linq\Linq\obj\Debug\net5.0\Linq.genruntimeconfig.cache
+D:\Practice Projects\Linq\Linq_Practice\Linq\bin\Debug\net5.0\Linq.exe
+D:\Practice Projects\Linq\Linq_Practice\Linq\bin\Debug\net5.0\Linq.deps.json
+D:\Practice Projects\Linq\Linq_Practice\Linq\bin\Debug\net5.0\Linq.runtimeconfig.json
+D:\Practice Projects\Linq\Linq_Practice\Linq\bin\Debug\net5.0\Linq.runtimeconfig.dev.json
+D:\Practice Projects\Linq\Linq_Practice\Linq\bin\Debug\net5.0\Linq.dll
+D:\Practice Projects\Linq\Linq_Practice\Linq\bin\Debug\net5.0\ref\Linq.dll
+D:\Practice Projects\Linq\Linq_Practice\Linq\bin\Debug\net5.0\Linq.pdb
+D:\Practice Projects\Linq\Linq_Practice\Linq\obj\Debug\net5.0\Linq.csprojAssemblyReference.cache
+D:\Practice Projects\Linq\Linq_Practice\Linq\obj\Debug\net5.0\Linq.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice Projects\Linq\Linq_Practice\Linq\obj\Debug\net5.0\Linq.AssemblyInfoInputs.cache
+D:\Practice Projects\Linq\Linq_Practice\Linq\obj\Debug\net5.0\Linq.AssemblyInfo.cs
+D:\Practice Projects\Linq\Linq_Practice\Linq\obj\Debug\net5.0\Linq.csproj.CoreCompileInputs.cache
+D:\Practice Projects\Linq\Linq_Practice\Linq\obj\Debug\net5.0\Linq.dll
+D:\Practice Projects\Linq\Linq_Practice\Linq\obj\Debug\net5.0\ref\Linq.dll
+D:\Practice Projects\Linq\Linq_Practice\Linq\obj\Debug\net5.0\Linq.pdb
+D:\Practice Projects\Linq\Linq_Practice\Linq\obj\Debug\net5.0\Linq.genruntimeconfig.cache
